@@ -1,91 +1,159 @@
 <!DOCTYPE html>
-<html lang="en" class="no-js">
-   <head>
-      <!-- Meta -->
-      <title>Contact</title>
-      <meta charset="UTF-8">
-      <meta name="description" content="Free HTML template">
-      <meta name="keywords" content="HTML, template, free">
-      <meta name="author" content="Nicola Tolin">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <!-- Styles -->
-      <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-      <link href="vendor/animate/animate.css" rel="stylesheet" type="text/css"/>
-      <link href="css/style.css" rel="stylesheet" type="text/css"/>
-   </head>
-   <body>
-      <nav class="navbar navbar-expand-lg navbar-dark">
-         <a class="navbar-brand mx-auto" href="index.html">
-         <img src="img/logo-black.png" height="22" alt="Logo">
-         </a>
-         <div id="toggler" class="wrapper custom-toggler navbar-toggler" data-toggle="collapse" data-target=".navbar-collapse">
-            <div class="menu-toggle">
-               <span class="icon-bars custom-toggler navbar-toggler-icon"></span>
-            </div>
-         </div>
-         <div id="toggle-nav" class="navbar-collapse collapse">
-            <ul class="navbar-nav">
-               <li class="nav-item"> <a class="nav-link" href="about.html">About</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="studio.html">Studio</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="works.html">Works</a> </li>
-               <li class="nav-item"> <a class="nav-link" href="contact.html">Contact</a> </li>
-            </ul>
-            <div id="social"><p>Your it to gave life whom as. Favourable dissimilar resolution led for and had.</p></div>
-         </div>
-      </nav>
-      <!-- Contact -->
-      <div class="container-fluid contact">
-         <div class="row">
-            <div class="col-md-10 offset-md-1">
-               <div class="row">
-                  <div class="col-md-6 col-sm-12">
-                     <p>
-                        Resolved to in believed desirous weddings together enjoyed cousins herself<br>
-                        arizonaarchitects@hollers.com
-                        <br><br>
-                        Explain few led parties attacks company  <br>
-                        On sure fine kept walk am in it.
-                        <br><br>
-                        Smiling nothing affixed he carried.<br>
-                        arizonaarchitects@hollers.com
-                     </p>
-                  </div>
-                  <div class="col-md-5 offset-md-1 col-sm-12">
-                     <p>
-                        ARIZONA ARCHITECTS<br>
-                        212  Masonic Hill Road<br>
-                        18335 - MARSHALLS CREEK - Pennsylvania<br>
-                        TEL. +1 501-529-4700
-                     </p>
-                  </div>
+<html lang="en">
+<head>
+    <style type="text/css">
+      
+       </style>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FECTUM GROUP</title>
+    <link rel="icon" href="assets.1.2.1/img/logo.png">
+    <link rel="stylesheet" href="assets.1.2.1/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/...">
+    <script src="https://kit.fontawesome.com/f49ecf94c5.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.all.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css">
+</head>
+<body>
+    <header>
+    <a href="index.html"><img src="assets.1.2.1/img/logo.png" alt="" height="95" width="95"></a>
+    <input type="checkbox" id="check">
+    <label for="check" class="mostrar-menu">
+        &#8801
+    </label>
+    <nav class="menu" id="menu">
+        <a href="index.html" >Inicio</a>
+        <a href="about.html" >Sobre Nosotros</a>
+        <a href="#" id="a3">Nuestros Servicios</a>  
+        <label for="check" class="esconder-menu">
+            &#215
+        </label>
+    </nav>
+    </header>
+
+    <section id="bannercont">
+        <div class="contenido-banner-ser">
+            <h3>
+                <span>Cont&aacute;ctanos</span>
+            </h3>
+        </div>
+    </section>
+    <section id="contacto">
+        <form >
+                     <div class="datos-form">
+                   <div class="nombre">
+                       <label for="nombre">Nombre:</label>
+                       <input type="text" name="nombre" id="nombre" placeholder="Nombre">
+                   </div>
+                   <div class="email">
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" placeholder="Email">
+                </div>
+                <div class="nombre">
+                    <label for="nombre">T&eacute;lefono: </label>
+                    <input type="number" name="telefono" id="telefono"  placeholder="T&eacute;lefono">
+                </div>
                </div>
+            
+               <div class="mensaje">
+                   <label for="mensaje">Mensaje:</label>
+                   <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Mensaje"></textarea>
+               </div>
+              
+            
+               <div class="boton-formulario">
+                    <a  class="boton-saber-mas"  onclick="Enviar();"><i class="fa fa-send"></i> Enviar Mensaje</a>
+               </div>
+            </form>
+       </section>
+     
+    <footer class="site-footer">
+        <section id="site-footer">
+            <div class="contenido-footer">
+                <div>
+                    <h5>Encuentranos</h5>
+                    <br>
+                    <p><i class="fa fa-location-arrow"></i> Ciudad de Guatemala </p>
+                    <p><i class="fa fa-phone"></i>  +502 34604251  </p>
+                    <p><i class="fa fa fa-envelope"></i> info@fectumgroup.com  </p>
+                </div>
+                <div id="enlaces">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="footer_ul_amrc">
+                    <li><a href="http://webenlance.com">gerenteplanificacion@fectumgroup.com</a></li>
+                    <li><a href="http://webenlance.com">info@fectumgroup.com</a></li>
+                    <li><a href="http://webenlance.com">Hollow Man Montage</a></li>
+                    <li><a href="http://webenlance.com">Ebay & Amazon</a></li>
+                    <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                    <li><a href="http://webenlance.com">Image Cropping</a></li>
+                    </ul>
+                </div>
+                <div id="sabermasdiv">
+                    <h5 class="headin5_amrc col_white_amrc pt2">Saber más...</h5>
+<!--headin5_amrc-->
+                <ul class="footer_ul_amrc">
+                <li><a href="http://webenlance.com">Remove Background</a></li>
+                <li><a href="http://webenlance.com">Shadows & Mirror Reflection</a></li>
+                <li><a href="http://webenlance.com">Logo Design</a></li>
+                <li><a href="http://webenlance.com">Vectorization</a></li>
+                <li><a href="http://webenlance.com">Hair Masking/Clipping</a></li>
+                <li><a href="http://webenlance.com">Image Cropping</a></li>
+                </ul>
+                </div>
+                
             </div>
-         </div>
-      </div>
-      <!-- End Contact -->
-      <!-- Contact Form -->
-      <div class="container-fluid contact-form">
-         <div class="row">
-            <div class="col-md-10 offset-md-1 col-sm-12">
-               <h2> Shall we call you? Give us your number </h2>
-               <form class="form-inline pt-5">
-                  <div class="form-group mb-2">
-                     <input type="phone" class="form-control" id="inputPhone" placeholder="Your phone number">
-                  </div>
-                  <button type="submit" class="mx-sm-4 btn btn-primary mb-2">SUBMIT</button>
-               </form>
+            <div class="boton-iconos">
+                <a href="#menu" id="regresar" class="boton-saber-mas"><i class="fa-solid fa-flag-checkered"></i> Regresar al Inicio</a>
             </div>
-         </div>
-      </div>
-      <!-- End Contact Form -->
-      <!-- Javascript -->
-      <script src="vendor/jquery.min.js"></script>
-      <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
-      <script src="vendor/wow/wow.js"></script>
-      <script src="js/script.js"></script>
-      <script>
-         new WOW().init();
-      </script>
-      <!-- End Javascript -->
-   </body>
+           </section>
+        <div class="container">
+          <div class="row">
+              <h5>FECTUM GROUP</h5>
+              <p class="marca">Siguenos en nuestras redes sociales</p>
+            </div>
+          </div>
+          <hr>
+        </div>
+        <div class="container">
+          <div class="row">
+              <p class="copyright-text">Copyright &copy; 2022 All Rights Reserved by 
+                <a href="#">ALE</a>.</p>
+            </div>
+              <ul class="social-icons">
+                <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+                <li><a class="dribbble" href="#"><i class="fa fa-dribbble"></i></a></li>
+                <li><a class="linkedin" href="#"><i class="fa fa-linkedin"></i></a></li>   
+              </ul>
+            </div>
+          </div>
+        </div>
+  </footer>
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+ 
+    <script src="assets.1.2.1/js/page/inicio.js" type="text/javascript" async="async"></script>
+   <script>
+     $(document).on('ready', function() {
+    $('#a3').on('click', function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: $('#contacto').offset().top }, 1000);
+    });
+    $('#regresar').on('click', function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: $('#menu').offset().top }, 1000);
+    });
+    $('#a4').on('click', function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: $('#contacto').offset().top }, 1000);
+    });
+    $('#a2').on('click', function(e) {
+        e.preventDefault();
+        $("html, body").animate({scrollTop: $('#personas').offset().top }, 1000);
+    });
+});
+
+   </script>
+</body>
 </html>
