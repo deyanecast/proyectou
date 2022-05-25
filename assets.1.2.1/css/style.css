@@ -267,6 +267,7 @@ header{
   padding: 0px 50px;
   background: rgba(255, 255, 255, 0.6);
   display: flex;
+  flex-wrap: wrap;
 
 }
 
@@ -276,11 +277,35 @@ header{
 }
 
 .carg-descripcion{
-  margin: 20px;
+  margin: auto;
   background: var(--card-color);
   color:rgb(13, 180, 172);
   width: 400;
   padding: 40px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
+  border-radius: 20px;          
+}
+
+/*servicios*/
+#conceptos{
+  padding: 0px 50px;
+  background: rgba(255, 255, 255, 0.6);
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.texto-conceptos{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.concep-descripcion{
+  margin: auto;
+  background: var(--card-color);
+  color:rgb(13, 14, 13);
+  width: 400;
+  padding: 25px;
   box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.377);
   border-radius: 20px;          
 }
@@ -555,8 +580,8 @@ form textarea::placeholder{
 footer 
 { 
   width:100%; 
-  background-color:#070707; 
-  min-height:100px; 
+  background-color:#263238; 
+  min-height:150px; 
   padding:10px 0px 25px 0px ;}
   
 footer p 
@@ -888,8 +913,7 @@ footer p
   .texto-servicios{
     text-align: center;
     padding-bottom: 50px;
-    flex-direction: column;
-
+    
   }
 
   .carg-descripcion{
